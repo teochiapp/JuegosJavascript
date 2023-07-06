@@ -1,0 +1,8 @@
+.getElementById();
+.querySelectorAll();
+.forEach();
+.addEventListener();
+.innerHtml();
+e.target.id
+Math.floor()
+Math.random()
