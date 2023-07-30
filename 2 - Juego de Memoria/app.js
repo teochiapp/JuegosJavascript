@@ -86,7 +86,7 @@ function checkMatch(){
     }
 
     else if( cardsChosen[0] == cardsChosen[1]){
-        alert("Bien máquina idolo crack")
+        alert("Bien máquina idolo crack!!")
 
         cards[optionOneId].setAttribute('src', 'images/white.png')
         cards[optionTwoId].setAttribute('src', 'images/white.png')
@@ -99,7 +99,7 @@ function checkMatch(){
         cards[optionOneId].setAttribute('src', 'images/blank.png')
         cards[optionTwoId].setAttribute('src', 'images/blank.png')
         if (contadorErrores > 10){
-            alert("Que memoria de mierda");
+            alert("A mejorar esa memoria!");
         }
         else{
             alert("Respuesta errónea");
