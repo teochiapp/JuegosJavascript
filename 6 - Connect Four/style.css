@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background: url("fondo.jpg") no-repeat;
+}
+
+h3 {
+    font-size: 25px;
+}
+#result {
+    font-size: 25px;
+    color: red;
+
+}
+.grid {
+    border: 1px solid;
+    height: 480px;
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223, 219, 195);
+    border-radius: 14px;
+  }
+  
+  .grid div {
+    height: 80px;
+    width: 80px;
+  }
+  
+  .player-one {
+    background-color: red;
+    border-radius: 50px;
+    box-shadow: 5px 8px 15px black inset;
+  }
+  
+  .player-two {
+    background-color: blue;
+    border-radius: 50px;
+    box-shadow: 5px 8px 15px black inset;
+  }
